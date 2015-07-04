@@ -1,3 +1,3 @@
 # toar
 
-Convert Objects and Strings to an Array
+Convert any type to an array

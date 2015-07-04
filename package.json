@@ -1,0 +1,30 @@
+{
+  "name": "toar",
+  "version": "0.0.1",
+  "description": "Convert any type to an array",
+  "main": "index.js",
+  "sripts": {
+    "test": "./node_modules/.bin/mocha ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericdouglas/toar.git"
+  },
+  "keywords": [
+    "convert",
+    "array",
+    "string",
+    "number",
+    "object"
+  ],
+  "author": "Eric Douglas <eric.douglas.mail@gmail.com> (https://github.com/ericdouglas)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericdouglas/toar/issues"
+  },
+  "homepage": "https://github.com/ericdouglas/toar#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}
