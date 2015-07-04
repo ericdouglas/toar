@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Convert any type to an array",
   "main": "index.js",
-  "sripts": {
-    "test": "./node_modules/.bin/mocha ./test/*"
+  "scripts": {
+    "test": "make test"
   },
   "repository": {
     "type": "git",
