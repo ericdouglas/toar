@@ -17,14 +17,16 @@ function toar() {
   var type      = typeof arguments[ 0 ];
   var splitter  = arguments[ 1 ];
   var key;
+
+  console.log( typeof input );
  
   // Verify if input is an object but is falsy (null or undefined)
-  if ( type === 'object' && !input ) {
+  if (( type === 'object' && !input ) || type === 'undefined' ) {
     return [ input ];
   }
 
   // Verify if input is an array
-  if ( input.constructor === Array ) {
+  if ( Array.isArray( input )) {
     return input;
   }
 
